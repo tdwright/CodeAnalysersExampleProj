@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RuleSet Name="Custom Rulset" Description="Custom Rulset" ToolsVersion="14.0">
     <Rules AnalyzerId="StyleCop.Analyzers" RuleNamespace="StyleCop.Analyzers">
+        <!-- These have been fixed and should be respected -->
+        <Rule Id="SA1002" Action="Warning" /><!-- Semicolons must be followed by a space -->
+
         <!-- Below have not yet been actioned and are sorted by count -->
-        <Rule Id="SA1002" Action="None" /><!-- 4 instances -->
         <Rule Id="SA1013" Action="None" /><!-- 4 instances -->
         <Rule Id="SA1500" Action="None" /><!-- 3 instances -->
         <Rule Id="SA1012" Action="None" /><!-- 2 instances -->
