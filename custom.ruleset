@@ -4,13 +4,15 @@
         <!-- These have been fixed and should be respected -->
         <Rule Id="SA1002" Action="Warning" /><!-- Semicolons must be followed by a space -->
         <Rule Id="SA1013" Action="Warning" /><!-- Closing brace must be preceded/followed by a space. -->
+        
+        <!-- These have been reviewed and are being actively ignored -->
+        <Rule Id="SA1200" Action="None" /><!-- Using Directives Must Be Placed Correctly; 1 instances -->
 
         <!-- Below have not yet been actioned and are sorted by count -->
         <Rule Id="SA1500" Action="None" /><!-- 3 instances -->
         <Rule Id="SA1012" Action="None" /><!-- 2 instances -->
         <Rule Id="SA1025" Action="None" /><!-- 2 instances -->
         <Rule Id="SA1652" Action="None" /><!-- 1 instances -->
-        <Rule Id="SA1200" Action="None" /><!-- 1 instances -->
         <Rule Id="SA1516" Action="None" /><!-- 1 instances -->
         <Rule Id="SA1505" Action="None" /><!-- 1 instances -->
         <Rule Id="SA1508" Action="None" /><!-- 1 instances -->
