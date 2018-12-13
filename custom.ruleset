@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RuleSet Name="Custom Rulset" Description="Custom Rulset" ToolsVersion="14.0">
+    <Rules AnalyzerId="StyleCop.Analyzers" RuleNamespace="StyleCop.Analyzers">
+        <!-- Below have not yet been actioned and are sorted by count -->
+        <Rule Id="SA1002" Action="None" /><!-- 4 instances -->
+        <Rule Id="SA1013" Action="None" /><!-- 4 instances -->
+        <Rule Id="SA1500" Action="None" /><!-- 3 instances -->
+        <Rule Id="SA1012" Action="None" /><!-- 2 instances -->
+        <Rule Id="SA1025" Action="None" /><!-- 2 instances -->
+        <Rule Id="SA1652" Action="None" /><!-- 1 instances -->
+        <Rule Id="SA1200" Action="None" /><!-- 1 instances -->
+        <Rule Id="SA1516" Action="None" /><!-- 1 instances -->
+        <Rule Id="SA1505" Action="None" /><!-- 1 instances -->
+        <Rule Id="SA1508" Action="None" /><!-- 1 instances -->
+        <Rule Id="SA1300" Action="None" /><!-- 1 instances -->
+        <Rule Id="SA1517" Action="None" /><!-- 1 instances -->
+        <Rule Id="SA1028" Action="None" /><!-- 1 instances -->
+        <Rule Id="SA1633" Action="None" /><!-- 1 instances -->
+    </Rules>
+</RuleSet>
