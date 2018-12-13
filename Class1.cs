@@ -8,4 +8,4 @@ namespace CodeAnalysersExampleProj
         public int MyProperty {get; set; }    // incorrect spacing
         public int another_property {get; set; }    // incorrect spacing
     
-}}
+} }
